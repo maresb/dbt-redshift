@@ -3,7 +3,7 @@ import os
 import sys
 import re
 
-# require python 3.6 or newer
+# require python 3.7 or newer
 if sys.version_info < (3, 7):
     print('Error: dbt does not support this version of Python.')
     print('Please upgrade to Python 3.7 or higher.')
